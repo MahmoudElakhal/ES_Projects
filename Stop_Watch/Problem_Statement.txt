@@ -1,0 +1,9 @@
+Project : Stopwatch
+Constraints : Use atmega 16 timer 1 peripheral to calculate the increment every 1 secs
+using 3 switches to 1- Reset the stop watch using External interrupt with sense control falling edge on INT0 
+		    2- Pause the stop watch using External interrupt with sense control Rising edge on INT1
+		    3- Resume the stop watch using external interrupt with sense control falling edge
+
+
+Driver used : MCAL : DIO , Port , Timer ,ExtINT ,Global Interrupt
+  
